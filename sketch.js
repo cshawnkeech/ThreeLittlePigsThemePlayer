@@ -1,6 +1,6 @@
-var helpersTheme = new buzz.sound( "audioExamples/helpersTheme", {
+var helpersTheme = new buzz.sound( "https://cshawnkeech.github.io/ThreeLittlePigsThemePlayer/audioExamples/HelpersTheme", {
     formats: [ "ogg", "mp3", "m4a", "wav" ]
-});
+});//adjusted for github site
 
 //var helpersTheme = new buzz.sound("audioExamples/helpersTheme.wav");
 var pig;
