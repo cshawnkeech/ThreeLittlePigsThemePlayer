@@ -1,9 +1,11 @@
 
+/*
 var helpersTheme = new buzz.sound( "audioExamples/helpersTheme", {
     formats: [ "ogg", "mp3", "m4a", "wav" ]
 });
 
-//var helpersTheme = new buzz.sound("audioExamples/helpersTheme.wav");
+*/
+var helpersTheme = new buzz.sound("audioExamples/helpersTheme.wav");
 var pig;
 var percent;
 
