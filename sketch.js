@@ -49,9 +49,9 @@ function draw() {
 
 function mousePressed() {
   var mouseDistance = dist(mouseX, mouseY, width/2, height/2);
-  if (mouseDistance < 40) {
+  if (mouseDistance < 40 * pig.sizeFactor) {
     helpersTheme.togglePlay();
-  } else if (mouseDistance > 40 && helpersTheme.isEnded() === false) {
+  } else if (mouseDistance > 40 * pig.sizeFactor && helpersTheme.isEnded() === false) {
     helpersTheme.stop();
   }
 

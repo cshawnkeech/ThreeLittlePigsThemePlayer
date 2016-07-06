@@ -9,11 +9,13 @@ function Piggy() {
   this.xTranslate = width/2 ;
   this.yTranslate = height/2;
   this.headtilt = 0;
+  this.sizeFactor = 2;
+
   this.display = function() {
     push()
 
     translate(this.xTranslate, this.yTranslate);
-
+    scale(this.sizeFactor);
     rotate(this.headtilt);
 
     // helper theme circle
