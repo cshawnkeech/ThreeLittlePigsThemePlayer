@@ -84,10 +84,10 @@ function Piggy() {
 
 //Wolf constructor
 function Wolf() {
-  this.red = 235;
-  this.green = 181;
-  this.blue = 227;
-  this.alpha = 200;
+  //this.red = 235;
+  //this.green = 181;
+  //this.blue = 227;
+  //this.alpha = 200;
   this.xTranslate = 2 * width/ 3;
   this.yTranslate = height/2;
   this.scaleFactor = 0.80;
